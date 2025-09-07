@@ -19,6 +19,8 @@ const [expandedTopics, setExpandedTopics] = useState({});
   };
 
   const handleLogout = () => {
+    setCompletedProblems({});
+    setExpandedTopics({});
     setUser(null);
     setCurrentPage('login');
   };
