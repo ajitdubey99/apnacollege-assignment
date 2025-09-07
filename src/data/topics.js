@@ -11,7 +11,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=sorting+algorithms',
         articleLink: 'https://www.geeksforgeeks.org/sorting-algorithms/',
         level: 'EASY',
-        status: 'Done'
       },
       {
         id: 'searching',
@@ -20,7 +19,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=searching+algorithms',
         articleLink: 'https://www.geeksforgeeks.org/searching-algorithms/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'dp',
@@ -29,7 +27,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=dynamic+programming',
         articleLink: 'https://www.geeksforgeeks.org/dynamic-programming/',
         level: 'MEDIUM',
-        status: 'Done'
       },
       {
         id: 'greedy',
@@ -38,7 +35,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=greedy+algorithms',
         articleLink: 'https://www.geeksforgeeks.org/greedy-algorithms/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'divide-conquer',
@@ -47,7 +43,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=divide+and+conquer',
         articleLink: 'https://www.geeksforgeeks.org/divide-and-conquer/',
         level: 'MEDIUM',
-        status: 'Done'
       },
       {
         id: 'backtracking',
@@ -56,7 +51,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=backtracking+algorithms',
         articleLink: 'https://www.geeksforgeeks.org/backtracking-algorithms/',
         level: 'HARD',
-        status: 'Pending'
       }
     ]
   },
@@ -72,7 +66,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=arrays+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/array-data-structure/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'linked-lists',
@@ -81,7 +74,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=linked+list+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/data-structures/linked-list/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'stacks',
@@ -90,7 +82,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=stack+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/stack-data-structure/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'queues',
@@ -99,7 +90,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=queue+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/queue-data-structure/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'trees',
@@ -108,7 +98,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=tree+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/binary-tree-data-structure/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'graphs',
@@ -117,7 +106,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=graph+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/',
         level: 'HARD',
-        status: 'Pending'
       },
       {
         id: 'hashing',
@@ -126,7 +114,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=hashing+data+structure',
         articleLink: 'https://www.geeksforgeeks.org/hashing-data-structure/',
         level: 'MEDIUM',
-        status: 'Pending'
       }
     ]
   },
@@ -142,7 +129,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=learn+sql',
         articleLink: 'https://www.geeksforgeeks.org/sql-tutorial/',
         level: 'EASY',
-        status: 'Pending'
       },
       {
         id: 'normalization',
@@ -151,7 +137,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=normalization+in+dbms',
         articleLink: 'https://www.geeksforgeeks.org/normalization-in-dbms/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'indexing',
@@ -160,7 +145,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=indexing+in+dbms',
         articleLink: 'https://www.geeksforgeeks.org/indexing-in-databases-set-1/',
         level: 'MEDIUM',
-        status: 'Pending'
       }
     ]
   },
@@ -176,7 +160,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=supervised+learning',
         articleLink: 'https://www.geeksforgeeks.org/supervised-machine-learning/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'unsupervised-learning',
@@ -185,7 +168,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=unsupervised+learning',
         articleLink: 'https://www.geeksforgeeks.org/unsupervised-machine-learning/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'model-evaluation',
@@ -194,7 +176,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=model+evaluation+metrics',
         articleLink: 'https://www.geeksforgeeks.org/evaluation-metrics-machine-learning/',
         level: 'MEDIUM',
-        status: 'Pending'
       }
     ]
   },
@@ -210,7 +191,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=process+management+os',
         articleLink: 'https://www.geeksforgeeks.org/process-management-in-os/',
         level: 'MEDIUM',
-        status: 'Pending'
       },
       {
         id: 'memory-management',
@@ -219,7 +199,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=memory+management+os',
         articleLink: 'https://www.geeksforgeeks.org/memory-management-in-operating-system/',
         level: 'HARD',
-        status: 'Pending'
       },
       {
         id: 'scheduling',
@@ -228,7 +207,6 @@ export const topics = [
         youtubeLink: 'https://www.youtube.com/results?search_query=cpu+scheduling+os',
         articleLink: 'https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/',
         level: 'MEDIUM',
-        status: 'Pending'
       }
     ]
   },

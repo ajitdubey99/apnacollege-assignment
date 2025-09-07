@@ -1,12 +1,10 @@
 'use client'
 
-import { useState } from 'react';
 import { ChevronDown, ChevronUp, ExternalLink, Play, BookOpen, CheckCircle2, Circle } from 'lucide-react';
 import { topics } from '../data/topics';
 import Footer from './Footer';
 
-const TopicsPage = ({ completedProblems, onToggleComplete }) => {
-  const [expandedTopics, setExpandedTopics] = useState({});
+const TopicsPage = ({ completedProblems, onToggleComplete,expandedTopics ,setExpandedTopics}) => {
 
   const toggleTopic = (topicId) => {
     setExpandedTopics(prev => ({
@@ -25,10 +23,10 @@ const TopicsPage = ({ completedProblems, onToggleComplete }) => {
   };
 
   // Checks if ALL subtopics in a topic are completed
-const isTopicCompleted = (topic) => {
-  if (topic.subtopics.length === 0) return false;
-  return topic.subtopics.every(subtopic => completedProblems[subtopic.id]);
-};
+  const isTopicCompleted = (topic) => {
+    if (topic.subtopics.length === 0) return false;
+    return topic.subtopics.every(subtopic => completedProblems[subtopic.id]);
+  };
 
   return (
     <div>
@@ -47,8 +45,8 @@ const isTopicCompleted = (topic) => {
               <div className="flex items-center space-x-3">
                 <h3 className="text-lg font-semibold">{topic.name}</h3>
                 {topic.pending && (
-                  <span className="bg-red-500 text-white text-xs px-2 py-1 rounded">
-                    {isTopicCompleted(topic) ? "Done":"Pending"}
+                  <span className={`${isTopicCompleted(topic) ? "bg-green-600": "bg-red-500"} text-white text-xs px-2 py-1 rounded`}>
+                    {isTopicCompleted(topic) ? "Done" : "Pending"}
                   </span>
                 )}
               </div>
@@ -130,7 +128,7 @@ const isTopicCompleted = (topic) => {
                             </span>
                           </td>
                           <td className="py-3 px-4">
-                            <span className="text-green-600 font-medium">{completedProblems[subtopic.id] ?"Done":  subtopic.status}</span>
+                            <span className={`${completedProblems[subtopic.id] ? "text-green-600":"text-blue-500"} font-medium`}>{completedProblems[subtopic.id] ? "Done" : "Pending"}</span>
                           </td>
                         </tr>
                       ))}
@@ -143,7 +141,7 @@ const isTopicCompleted = (topic) => {
         ))}
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -12,7 +12,7 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState('login');
   const [user, setUser] = useState(null);
   const [completedProblems, setCompletedProblems] = useState({});
-
+const [expandedTopics, setExpandedTopics] = useState({});
   const handleLogin = (userData) => {
     setUser(userData);
     setCurrentPage('dashboard');
@@ -63,6 +63,8 @@ export default function Home() {
         <TopicsPage
           completedProblems={completedProblems}
           onToggleComplete={toggleProblemComplete}
+          expandedTopics={expandedTopics}
+          setExpandedTopics={setExpandedTopics}
         />
       )}
       {currentPage === 'progress' && (
